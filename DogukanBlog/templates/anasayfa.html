@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aa296b0ee5.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBLOG</title>
+    <style>
+    img:hover{
+        
+        cursor:cell;
+    }
+
+    </style>
+</head>
+<body style="background-image: url(https://www.sheknows.com/wp-content/uploads/2018/08/books-about-books-feature_ar60x7.jpeg); background-size:cover;">
+    
+    {% include "includes/navbar.html" %}
+     {% include "includes/home.html" %}
+     
+    <div class="container" style="height: auto;">
+   
+ {% block body%}
+
+ 
+ <p style="color:black;">
+    <br>
+    <br>
+   <strong style="background-color:blanchedalmond">
+ "İki şey sonsuzdur: evren ve insan aptallığı; ve evrenden emin değilim.” Albert Einstein <br><br>
+
+"Müzik olmadan, hayat bir hata olur.” Friedrich Nietzsche <br><br>
+
+Aşkın tersi nefret değil, ilgisizlik. Sanatın tersi çirkinlik değil, ilgisizlik. İnancın tersi sapkınlık değil, 
+ilgisizlik. Ve hayatın tersi ölüm değil, kayıtsızlıktır.” Elie Wiesel<br><br>
+
+
+"Düşüncelerinizle barış içinde olmayı bıraktığınızda konuşursunuz.”<br><br>
+
+ "İnsan, olduğu gibi olmayı reddeden tek yaratıktır.”  Albert Camus<br><br>
+
+"Bilenler konuşmazlar. Konuşanlar bilmezler.” Lao Tsu<br><br>
+
+"Mutluluk, en karanlık zamanlarda bile bulunabilir, eğer sadece ışığı açmayı hatırlarsa.”  J. K. Rowling<br><br>
+
+“Eğer kazanırsan, açıklamak zorunda değilsin...Kaybedersen, açıklamak için orada olmamalısın!”  Adolf Hitler<br><br>
+
+"Hayat gerçekten basit, ama biz bunu karmaşık hale getirmek için ısrar ediyoruz.” Konfüçyüs<br><br>
+
+Siyasete katılmayı reddetmenin cezalarından biri, aşağılık kişiler tarafından yönetilmenizdir.” Platon</strong> <br><br></p>
+ {% endblock  %}
+
+
+     
+</div>
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
